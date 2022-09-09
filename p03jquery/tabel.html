@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Membuat Tabel JQuery</title>
+<style>
+body
+.table1 {
+    background-color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tombol{
+    background-color: black;
+    color: white;
+    padding: 18px 18px;
+    border: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 65%;
+}
+
+td, th {
+  border: 3px solid #686de0;
+  text-align: left;
+  padding: 10px;
+}
+
+}
+
+tr:nth-child(even) {
+  background-color: #686de0;
+}
+</style>
+</head>
+<body>
+	
+	<div class = table1>
+	
+
+
+	<h1>Teman-Teman Terbaik</h1>
+	<h3><center><p>Ikna Khoerudin<br> 32211524
+	</p></center></h3>
+
+<table>
+  <tr>
+  	<th width="1%">NO</th>
+    <th width="10%">NAME</th>
+    <th width="15%">ADDRESS</th>
+    <th width="5%">ACTION</th>
+  </tr>
+  <tr>
+  	<td>1</td>
+    <td class="text" id="nama1">Pita Triya</td>
+    <td class="text" id="alamat1" >Cirebon</td>
+    <td class="text" id="hapus1">Hapus</td>
+  </tr>
+  <tr>
+  	<td>2</td>
+    <td class="text" id="nama2">Putri Salsabila</td>
+    <td class="text" id="alamat2">Cirebon</td>
+    <td class="text" id="hapus2">Hapus</td>
+  </tr>
+  <tr>
+  	<td>3</td>
+    <td class="text" id="nama3">Rijal Wijaya</td>
+    <td class="text" id="alamat3">Cirebon</td>
+    <td class="text" id="hapus3">Hapus</td>
+  </tr>
+  <tr>
+  	<td>4</td>
+    <td class="text" id="nama4">Teneshya Lidia Putri</td>
+    <td class="text" id="alamat4">Cirebon</td>
+  	<td class="text" id="hapus4">Hapus</td>
+  </tr>
+  <tr>
+  	<td>5</td>
+    <td class="text" id="nama5">Vera Vibrianti</td>
+    <td class="text" id="alamat5">Cirebon</td>
+   <td class="text" id="hapus5">Hapus</td>
+</tr>
+</table>
+	</div>
+	<div class ="tombol">
+		<a onclick="alert('Mau Kembali kh?')" class="tombol">Go Back!</a>
+	</div>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){ $('.text').click(function(){ 
+ 	let text = $(this).text();
+  alert(`Anda mengklik text yang berisi text "${text}"`);
+   if(text!='HAPUS'){ 
+   	let text2 = prompt('Ingin mengedit ini kh?:', text);
+    if(!text2) return; $(this).text(text2); }
+    else{ let yakin = confirm('Btulkh?'); if(!yakin) return;  } }) }) 
+</script>
+
+
+</body>
+</html>
