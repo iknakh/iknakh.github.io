@@ -16,7 +16,7 @@ header{
 			font-size: 15px;
 		}
 		.kop1,.kop2,.kop3{
-			float: center;
+			float: left;
 			width: 30%;
 			height: 5%;
 		}
