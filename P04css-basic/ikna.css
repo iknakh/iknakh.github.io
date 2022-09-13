@@ -1,0 +1,99 @@
+header{
+			width: auto;
+			height: 150px;
+			border-bottom: 10px solid black;
+		}
+		img{
+			height:150px;
+			width: 150px;
+		}
+		.h4{
+			color: blue;
+			font-size: 10px;
+		}
+		.h1{
+			color: red;
+			font-size: 15px;
+		}
+		.kop1,.kop2,.kop3{
+			float: left;
+			width: 30%;
+			height: 5%;
+		}
+		.kop1{
+			height: 130px;
+			width: 130px;
+		}
+		.h2,.h1{
+			line-height: 1px;
+		}
+		.h2{
+			margin-top: auto;
+			color: darkblue;
+			line-height:normal;
+		}
+		.h1{
+			font-size: 30px;
+		}
+		h3{
+			font-size: 20px;
+		}
+		.kop2{
+			font-size: 12px;
+			width: 130px;
+			height: 150px;
+			margin: 0px 0px 0px 10px;
+			padding-left: 20px;
+			border-left: 5px solid red;
+		}
+		.nav-1,.nav-2{
+			list-style-type: none;
+			float: left;
+			width: auto;
+			height: auto;
+		}
+		form{
+			width: auto;
+			height: auto;
+			border: 1px solid black;
+			margin-left: auto;
+			box-shadow: 2px 2px 2px 2px gray;
+		}
+		.menu-4{
+			float: right;
+		}
+		.menu-5{
+			margin-top: 160px;
+			margin-bottom: 10px;
+		}
+		.menu-1,.menu-3{
+			float: left;
+			margin: 10px 0px 0px 10px;
+		}
+		br{
+			font-size: 20px;
+		}
+		input,select{
+			width: 200px;
+			font-size: 20px;
+			height: 50px;
+			margin-left: 5px;
+			border-radius: 5px ;
+			border: 1px solid blue;
+		}
+		.radio{
+			width: auto;
+			height: auto;
+		}
+		
+		.btn-kirim{
+			background-color: blue;
+			border-radius: 10px;
+			color: white;
+			cursor: pointer;
+			height: 50px;
+			width: 200px;
+		}
+		.btn-kirim:hover{
+			background-color: darkblue;
+		}
