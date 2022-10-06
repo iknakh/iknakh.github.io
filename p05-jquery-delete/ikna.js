@@ -6,7 +6,7 @@ $(document).ready(function(){
         let id_b = rid[1];
         let name = $('#name__'+id_b).text();
 
-        if(isi=='Hapus'){
+        if(isi=='HAPUS'){
             let konfirmasi = confirm(`Apakah anda yakin ingin menghapus data atas nama ${name}??`);
             if(!konfirmasi) return;
 
