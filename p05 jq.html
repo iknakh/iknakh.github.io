@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pertemuan 5 Delete JQuery</title>
+    <style type="text/css">
+        body{
+            background-color: rgb(98, 58, -103);
+            text-align: center;
+        } 
+        table, th, td{
+            border: 1px solid yellow;
+            border-radius: 8px;
+        }
+        table{
+            border: transparent;
+        }
+        td{
+            background-color: rgb(53, 123, -50);
+        }
+        th, td{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 24px;
+            padding-right: 30px;
+        }
+        .judul-tabel{
+            background-color: rgb(53, 123, 90);
+        }
+        table tbody tr:hover td{
+            background-color: rgb(53, 123, 90);
+            border-color: rgb(59, 87, 138);
+            transition: all .5s;
+        }
+    </style>
+</head>
+<body>
+    <table style="margin-left: auto;margin-right: auto;" border="1">
+        <tr class="judul-tabel">
+            <th>NO.</th>
+            <th>NAMA</th>
+            <th>ALAMAT</th>
+            <th>AKSI</th>
+        </tr>
+        <tr id="b1">
+            <td>1.</td>
+            <td class="data" id="name1">MUHAMMAD RIFAAI ALLDI ANANDA</td>
+            <td class="data" id="adr1">CIREBON</td>
+            <td class="data tengah" id="del1">HAPUS</td>
+        </tr>
+        <tr id="b2">
+            <td>2.</td>
+            <td class="data" id="name2">PITA TRIYA</td>
+            <td class="data" id="adr2">CIREBON</td>
+            <td class="data tengah" id="del2">HAPUS</td>
+        </tr>
+        <tr id="b3">
+            <td>3.</td>
+            <td class="data" id="name3">PUTRI SALSABILA</td>
+            <td class="data" id="adr3">CIREBON</td>
+            <td class="data tengah" id="del3">HAPUS</td>
+        </tr>
+        <tr id="b4">
+            <td>4.</td>
+            <td class="data" id="name4">TENESHYA LIDIA PUTRI</td>
+            <td class="data" id="adr4">CIREBON</td>
+            <td class="data tengah" id="del4">HAPUS</td>
+        </tr>
+        <tr id="b5">
+            <td>5.</td>
+            <td class="data" id="name5">RIJAL WIJAYA</td>
+            <td class="data" id="adr5">CIREBON</td>
+            <td class="data tengah" id="del5">HAPUS</td>
+        </tr>
+    </table><br>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="ikna.js"></script>
+</body>
+</html>
