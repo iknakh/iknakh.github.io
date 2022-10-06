@@ -4,13 +4,13 @@ $(document).ready(function(){
         let tid = $(this).prop('id');
         let rid = tid.split('__');
         let id_b = rid[1];
-        let name = $('#namae'+id_b).text();
+        let name = $('#name__'+id_b).text();
 
         if(isi=='Hapus'){
             let konfirmasi = confirm(`Apakah anda yakin ingin menghapus data atas nama ${name}??`);
             if(!konfirmasi) return;
 
-            $('#b'+id_b).fadeOut();
+            $('#b__'+id_b).fadeOut();
         }else{
             alert("Anda mengklik kolom yang berisi : " +$(this).html() + "!");
         }
