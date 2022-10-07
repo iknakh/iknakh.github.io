@@ -13,7 +13,7 @@ $('nav').delegate('.off', 'click', function(event) {
 	console.log(pilihMana);
 	document.location.hash = pilihMana;
 
-	$('.isi:visible').fadeOut('slow', function() {
+	$('.mana:visible').fadeOut('slow', function() {
 		$('.mana#' + pilihMana).fadeIn('slow');
 	});
 
