@@ -18,8 +18,8 @@ $('nav').delegate('.tidak-aktif', 'click', function(event) {
 	});
 
 	var $this = $(this);
-	$this.removeClass('tidak-aktif').addClass("aktif");
-    $this.siblings().addClass('tidak-aktif').removeClass('aktif');
+	$this.removeClass('off').addClass("on");
+    $this.siblings().addClass('off').removeClass('on');
 
     });
 });
