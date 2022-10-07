@@ -17,13 +17,13 @@ body{
 
 .navigasi{
     position: fixed;
-    font-family: 'Calibry Body', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     background-color: white;
     top: 0;
     left: 0;
     right: 0;
     transition: all 1s ease-in-out;
-    box-shadow:3px 3px 14px rgba(,0,0,0.2);
+    box-shadow:3px 3px 14px rgba(0,0,0.2);
     z-index: 99;
 }
 
